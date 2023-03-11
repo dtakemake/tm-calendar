@@ -1,0 +1,51 @@
+{
+  "name": "tm-calendar",
+  "version": "1.0.0",
+  "description": "Web calendar",
+  "main": "dist/calendar.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode development --config tools/webpack/webpack.config.dev.js",
+    "dev": "webpack --mode development --config tools/webpack/webpack.config.dev.js",
+    "build": "webpack --mode production --config tools/webpack/webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtakemake/tm-calendar.git"
+  },
+  "keywords": [
+    "calendar"
+  ],
+  "author": "Yury Samakhvalau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtakemake/tm-calendar/issues"
+  },
+  "homepage": "https://github.com/dtakemake/tm-calendar#readme",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.3",
+    "sass": "^1.59.2",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "tm-dom": "^1.1.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
