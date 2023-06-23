@@ -1,3 +1,3 @@
 module.exports = {
-	calendar    : './src/index.ts',
+	index : './src/index.ts',
 }
